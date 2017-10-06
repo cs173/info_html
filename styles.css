@@ -2,6 +2,18 @@ body {
     background-color: #28204C;
     position: relative;
 }
+.list-group-item {
+    color: #53F2C2;
+    background-color: #28204C;
+    border-color: #28204C;
+}
+
+.list-group-item.active {
+    color: #212529;
+    background-color: #53F2C2;
+    border-color: #53F2C2;
+}
+
 
 .section-wrapper {
     padding-top: 1vh;
@@ -10,9 +22,9 @@ body {
 
 .section {
     background-color: #53F2C2;
-    padding-top: 3vh;
+    padding-top: 2.5vh;
     padding-right: 2vh;
-    padding-bottom: 3vh;
+    padding-bottom: 1vh;
     padding-left: 2vh;
     border-radius: 1vh;
 }
@@ -23,4 +35,5 @@ body {
 
 .text {
     text-align: justify;
+    margin-top: 2.5vh;
 }
