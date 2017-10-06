@@ -1,12 +1,26 @@
-.sidenav {
+body {
     background-color: #28204C;
+    position: relative;
 }
 
-.text {
-    padding-top: 5vh;
+.section-wrapper {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.section {
     background-color: #53F2C2;
+    padding-top: 3vh;
+    padding-right: 2vh;
+    padding-bottom: 3vh;
+    padding-left: 2vh;
+    border-radius: 1vh;
 }
 
 .header {
     text-align: center;
+}
+
+.text {
+    text-align: justify;
 }
