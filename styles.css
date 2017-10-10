@@ -6,12 +6,14 @@ html, body {
 .sidenav-wrapper {
     position: fixed;
     height: 100%;
-    display: flex;
-    align-items: center;
+    display: table;
 }
 
 #sidenav {
-    position: fixed;
+    display: table-row;
+    vertical-align: middle;
+    /*position: fixed;*/
+    /*flex-direction: column;*/
 }
 
 .label {
@@ -23,8 +25,8 @@ html, body {
 
 .list-group-item {
     color: #53F2C2;
-    background-color: #28204C;
-    border-color: #28204C;
+    background-color: inherit;
+    border-style: none;
     text-align: left;
 }
 
