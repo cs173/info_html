@@ -6,7 +6,10 @@ html, body {
 .sidenav-wrapper {
     position: fixed;
     height: 100%;
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 #sidenav {
@@ -17,8 +20,6 @@ html, body {
 }
 
 .label {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
     text-align: center;
     color: #53F2C2;
 }
