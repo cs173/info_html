@@ -34,7 +34,7 @@ html, body {
 }
 
 .list-group-item.active {
-    color: #212529;
+    color: #333333;
     background-color: #53F2C2;
     border-color: #53F2C2;
 }
